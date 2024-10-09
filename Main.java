@@ -133,7 +133,7 @@ public class Main extends JFrame implements ActionListener{
         else if(msg.equals("Update Information")){
             new UpdateInfo(meter_number);
         }
-        else if(msg.equals("viewinformation")){
+        else if(msg.equals("View Information")){
             new ViewInfo(meter_number);
         }
         else if(msg.equals("Pay Bill")){
